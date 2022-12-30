@@ -1,4 +1,17 @@
 {
   "author": "Chad Dreveny",
-  "gitHubUrl": "https://github.com/dreveny/Hubitat"
+  "gitHubUrl": "https://github.com/dreveny/Hubitat",
+  "packages": [
+    {
+      "id": "eef26b8e-b47a-43e1-b73e-1548ef89dd1d",
+      "name": "Remotec ZFM-80",
+      "category": "Control",
+      "location": "https://raw.githubusercontent.com/dreveny/Hubitat/master/packageManifest/remotec-zfm-80.json",
+      "description": "Remotec ZFM-80 Relay Driver.  Used as a relay switch that can be set up to be a momentary switch if desired.  The external switch type can also be configured.",
+      "tags": [
+        "Lights & Switches",
+        "ZWave"
+      ]
+    }
+  ]
 }
