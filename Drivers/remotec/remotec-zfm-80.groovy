@@ -12,13 +12,22 @@
  * madmax98087@yahoo.com
  * 2015-02-16
  *
- * change log
- *   2015-02-16 added delay between configuration changes, helps with devices further away from the hub.
- *   2015-02-21 fixed null error on initial install
- *   2018-05-22 Forked to clean up and add new options and added momentary switch option.
- *   2022-09-01 Modified to work with Hubitat
+ * Changelog:
+ *
+ * [0.0.1] - 2022-12-30
+ *   - Initial release
+ *
+ * Older Changelog (before HPM versioning):
  *   2022-12-25 Minor clean up and make it look more like a Hubitat driver's logging.
+ *   2022-09-01 Modified to work with Hubitat
+ *   2018-05-22 Forked to clean up and add new options and added momentary switch option.
+ *   2015-02-21 fixed null error on initial install
+ *   2015-02-16 added delay between configuration changes, helps with devices further away from the hub.
 */
+
+import groovy.transform.Field
+
+@Field static final String VERSION = "0.0.1"
 
 metadata {
 
@@ -31,7 +40,7 @@ metadata {
     capability "Relay Switch"
     capability "Sensor"
     capability "Switch"
- 
+
     fingerprint deviceId: "0x1003", inClusters: "0x20, 0x25, 0x27, 0x72, 0x86, 0x70, 0x85"
   }
   preferences {

@@ -1,0 +1,17 @@
+{
+  "packageName": "Remotec ZFM-80",
+  "author": "Chad Dreveny",
+  "version": "0.0.1",
+  "minimumHEVersion": "2.3.0",
+  "dateReleased": "2022-12-30",
+  "drivers": [
+    {
+      "id": "ccb42249-9198-49ab-9a31-c7eae7736da1",
+      "name": "Remotec ZFM-80",
+      "namespace": "dreveny",
+      "location": "https://raw.githubusercontent.com/dreveny/Hubitat/master/Drivers/remotec/remotec-zfm-80.groovy",
+      "required": false,
+      "version": "0.0.1"
+    }
+  ]
+}
